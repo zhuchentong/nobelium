@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
 
@@ -71,8 +70,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <Image width={24} height={24} src='/favicon.ico' alt='Logo' />
-              {/* <svg
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -98,7 +96,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                     </radialGradient>
                   </defs>
-                </svg> */}
+                </svg>
               </div>
             </a>
           </Link>
