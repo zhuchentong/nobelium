@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import BLOG from "@/blog.config";
 import { useLocale } from "@/lib/locale";
 
@@ -70,7 +71,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <img width="24px" height="24px" src="favicon.ico" />
+                <Image width={24} height={24} src="/favicon.ico" alt="Logo" />
                 {/* <svg
                   width="24"
                   height="24"
