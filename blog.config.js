@@ -1,6 +1,6 @@
 const BLOG = {
   title: "前端小馆",
-  author: "陕ICP备17002993号-1",
+  author: "Zhu Chentong",
   email: "2037630@163.com",
   link: "https://zhchentong.cn",
   description: "zhuchentong's blog",
